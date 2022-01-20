@@ -1,13 +1,39 @@
-body {
+*, ::after, ::before{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: arial;
+  background: radial-gradient(circle at top, #1F3656,#131637);
+}
+
+.container-general{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.jeu-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.btn-rules{
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  background-color: #131637;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 30px;
+  cursor: pointer;
 }

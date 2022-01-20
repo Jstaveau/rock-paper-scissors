@@ -1,0 +1,72 @@
+.choix-step{
+    width: 260px;
+    height: 260px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choix-step svg{
+    transform: scale(1.5);
+}
+.paper-step{
+    border: 30px solid #5671F5;
+}
+.rock-step{
+    border: 30px solid #DF405E;
+}
+.scissors-step{
+    border: 30px solid #ECA724;
+}
+.step-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.step-container p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.rond-noir{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.sous-step{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 300px;
+}
+.center-rond{
+    display: flex;
+    align-items: center;
+    height: 90%;
+}
+.div-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.div-btn p{
+    font-size: 30px;
+    text-align: center;
+}
+.div-btn button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    color: #DF405E;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}

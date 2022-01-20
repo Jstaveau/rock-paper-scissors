@@ -1,0 +1,38 @@
+.titre-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.ppc-container p{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 32px;
+    transform: scaleY(1.25);
+}
+
+.score{
+    background-color: white;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.score p:nth-child(1){
+    color: blue;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.score p:nth-child(2){
+    color: rgba(50, 50, 50, 0.7);
+    font-size: 50px;
+    font-weight: bold;
+}

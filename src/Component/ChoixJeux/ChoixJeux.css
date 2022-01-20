@@ -1,0 +1,26 @@
+.choix{
+    width: 160px;
+    height: 160px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paper{
+    border: 20px solid #5671F5;
+    position: absolute;
+    top: 20px;
+    left: 160px;
+}
+.rock{
+    border: 20px solid #DF405E;
+    position: absolute;
+    bottom: 20px;
+}
+.scissors{
+    border: 20px solid #ECA724;
+    position: absolute;
+    top: 20px;
+    right: 160px;
+}
